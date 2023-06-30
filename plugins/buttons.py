@@ -53,7 +53,7 @@ async def sslist(bot, message):
         await asyncio.sleep(60)
         await p.delete()
     
-elif query.data == "np":
+if query.data == "np":
         buttons = [[
                     InlineKeyboardButton('Namah Laxmi Narayan', callback_data='namah'),
                     InlineKeyboardButton('Uttar Ramayan', callback_data=f'ur')

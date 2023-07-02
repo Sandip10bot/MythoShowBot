@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """Write Start Message Here"""
+    START_TXT = """Welcome To @MythoSerial Here You Will Get Mythology Serial"""
 
     HELP_TXT = """Help"""
 
